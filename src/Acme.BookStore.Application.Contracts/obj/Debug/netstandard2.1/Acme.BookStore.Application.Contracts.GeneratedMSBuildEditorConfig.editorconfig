@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Acme.BookStore
+build_property.ProjectDir = E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Application.Contracts\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

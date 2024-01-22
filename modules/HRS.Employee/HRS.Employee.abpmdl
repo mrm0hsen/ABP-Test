@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "HRS.Employee.Domain.Shared": {
+      "path": "src/HRS.Employee.Domain.Shared/HRS.Employee.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.Domain": {
+      "path": "src/HRS.Employee.Domain/HRS.Employee.Domain.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.Application.Contracts": {
+      "path": "src/HRS.Employee.Application.Contracts/HRS.Employee.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.Application": {
+      "path": "src/HRS.Employee.Application/HRS.Employee.Application.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.EntityFrameworkCore": {
+      "path": "src/HRS.Employee.EntityFrameworkCore/HRS.Employee.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.MongoDB": {
+      "path": "src/HRS.Employee.MongoDB/HRS.Employee.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.HttpApi": {
+      "path": "src/HRS.Employee.HttpApi/HRS.Employee.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.HttpApi.Client": {
+      "path": "src/HRS.Employee.HttpApi.Client/HRS.Employee.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.TestBase": {
+      "path": "test/HRS.Employee.TestBase/HRS.Employee.TestBase.abppkg",
+      "folder": "test"
+    },
+    "HRS.Employee.EntityFrameworkCore.Tests": {
+      "path": "test/HRS.Employee.EntityFrameworkCore.Tests/HRS.Employee.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "HRS.Employee.MongoDB.Tests": {
+      "path": "test/HRS.Employee.MongoDB.Tests/HRS.Employee.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "HRS.Employee.Domain.Tests": {
+      "path": "test/HRS.Employee.Domain.Tests/HRS.Employee.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "HRS.Employee.Application.Tests": {
+      "path": "test/HRS.Employee.Application.Tests/HRS.Employee.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "HRS.Employee.HttpApi.Host": {
+      "path": "host/HRS.Employee.HttpApi.Host/HRS.Employee.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "HRS.Employee.Web": {
+      "path": "src/HRS.Employee.Web/HRS.Employee.Web.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/HRS.Employee.HttpApi.Client.ConsoleTestApp/HRS.Employee.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "HRS.Employee.Web.Host": {
+      "path": "host/HRS.Employee.Web.Host/HRS.Employee.Web.Host.abppkg",
+      "folder": "host"
+    },
+    "HRS.Employee.AuthServer": {
+      "path": "host/HRS.Employee.AuthServer/HRS.Employee.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "HRS.Employee.Host.Shared": {
+      "path": "host/HRS.Employee.Host.Shared/HRS.Employee.Host.Shared.abppkg",
+      "folder": "host"
+    },
+    "HRS.Employee.Web.Unified": {
+      "path": "host/HRS.Employee.Web.Unified/HRS.Employee.Web.Unified.abppkg",
+      "folder": "host"
+    },
+    "HRS.Employee.Blazor": {
+      "path": "src/HRS.Employee.Blazor/HRS.Employee.Blazor.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.Blazor.Host": {
+      "path": "host/HRS.Employee.Blazor.Host/HRS.Employee.Blazor.Host.abppkg",
+      "folder": "host"
+    },
+    "HRS.Employee.Blazor.Server": {
+      "path": "src/HRS.Employee.Blazor.Server/HRS.Employee.Blazor.Server.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.Blazor.WebAssembly": {
+      "path": "src/HRS.Employee.Blazor.WebAssembly/HRS.Employee.Blazor.WebAssembly.abppkg",
+      "folder": "src"
+    },
+    "HRS.Employee.Blazor.Server.Host": {
+      "path": "host/HRS.Employee.Blazor.Server.Host/HRS.Employee.Blazor.Server.Host.abppkg",
+      "folder": "host"
+    }
+  }
+}

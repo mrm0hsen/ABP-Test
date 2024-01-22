@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "HRS.OrganChart.Domain.Shared": {
+      "path": "src/HRS.OrganChart.Domain.Shared/HRS.OrganChart.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.Domain": {
+      "path": "src/HRS.OrganChart.Domain/HRS.OrganChart.Domain.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.Application.Contracts": {
+      "path": "src/HRS.OrganChart.Application.Contracts/HRS.OrganChart.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.Application": {
+      "path": "src/HRS.OrganChart.Application/HRS.OrganChart.Application.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.EntityFrameworkCore": {
+      "path": "src/HRS.OrganChart.EntityFrameworkCore/HRS.OrganChart.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.MongoDB": {
+      "path": "src/HRS.OrganChart.MongoDB/HRS.OrganChart.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.HttpApi": {
+      "path": "src/HRS.OrganChart.HttpApi/HRS.OrganChart.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.HttpApi.Client": {
+      "path": "src/HRS.OrganChart.HttpApi.Client/HRS.OrganChart.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.TestBase": {
+      "path": "test/HRS.OrganChart.TestBase/HRS.OrganChart.TestBase.abppkg",
+      "folder": "test"
+    },
+    "HRS.OrganChart.EntityFrameworkCore.Tests": {
+      "path": "test/HRS.OrganChart.EntityFrameworkCore.Tests/HRS.OrganChart.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "HRS.OrganChart.MongoDB.Tests": {
+      "path": "test/HRS.OrganChart.MongoDB.Tests/HRS.OrganChart.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "HRS.OrganChart.Domain.Tests": {
+      "path": "test/HRS.OrganChart.Domain.Tests/HRS.OrganChart.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "HRS.OrganChart.Application.Tests": {
+      "path": "test/HRS.OrganChart.Application.Tests/HRS.OrganChart.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "HRS.OrganChart.HttpApi.Host": {
+      "path": "host/HRS.OrganChart.HttpApi.Host/HRS.OrganChart.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "HRS.OrganChart.Web": {
+      "path": "src/HRS.OrganChart.Web/HRS.OrganChart.Web.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/HRS.OrganChart.HttpApi.Client.ConsoleTestApp/HRS.OrganChart.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "HRS.OrganChart.Web.Host": {
+      "path": "host/HRS.OrganChart.Web.Host/HRS.OrganChart.Web.Host.abppkg",
+      "folder": "host"
+    },
+    "HRS.OrganChart.AuthServer": {
+      "path": "host/HRS.OrganChart.AuthServer/HRS.OrganChart.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "HRS.OrganChart.Host.Shared": {
+      "path": "host/HRS.OrganChart.Host.Shared/HRS.OrganChart.Host.Shared.abppkg",
+      "folder": "host"
+    },
+    "HRS.OrganChart.Web.Unified": {
+      "path": "host/HRS.OrganChart.Web.Unified/HRS.OrganChart.Web.Unified.abppkg",
+      "folder": "host"
+    },
+    "HRS.OrganChart.Blazor": {
+      "path": "src/HRS.OrganChart.Blazor/HRS.OrganChart.Blazor.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.Blazor.Host": {
+      "path": "host/HRS.OrganChart.Blazor.Host/HRS.OrganChart.Blazor.Host.abppkg",
+      "folder": "host"
+    },
+    "HRS.OrganChart.Blazor.Server": {
+      "path": "src/HRS.OrganChart.Blazor.Server/HRS.OrganChart.Blazor.Server.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.Blazor.WebAssembly": {
+      "path": "src/HRS.OrganChart.Blazor.WebAssembly/HRS.OrganChart.Blazor.WebAssembly.abppkg",
+      "folder": "src"
+    },
+    "HRS.OrganChart.Blazor.Server.Host": {
+      "path": "host/HRS.OrganChart.Blazor.Server.Host/HRS.OrganChart.Blazor.Server.Host.abppkg",
+      "folder": "host"
+    }
+  }
+}

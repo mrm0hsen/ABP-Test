@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>HRS.Employee</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\HRS.OrganChart\src\HRS.OrganChart.Application.Contracts\HRS.OrganChart.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\HRS.Employee.Application\HRS.Employee.Application.csproj" />
+    <ProjectReference Include="..\HRS.Employee.Domain.Tests\HRS.Employee.Domain.Tests.csproj" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+  </ItemGroup>
+
+</Project>

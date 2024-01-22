@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "HRS.OrganChart": {
+      "path": "HRS.OrganChart.abpmdl"
+    }
+  }
+}

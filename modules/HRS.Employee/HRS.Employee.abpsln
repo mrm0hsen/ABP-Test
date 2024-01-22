@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "HRS.Employee": {
+      "path": "HRS.Employee.abpmdl"
+    }
+  }
+}

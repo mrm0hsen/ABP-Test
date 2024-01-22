@@ -1,0 +1,220 @@
+[15:38:33 INF] Starting Acme.BookStore.HttpApi.Host.
+[15:38:39 INF] Loaded ABP modules:
+[15:38:39 INF] - Acme.BookStore.BookStoreHttpApiHostModule
+[15:38:39 INF]   - Acme.BookStore.BookStoreHttpApiModule
+[15:38:39 INF]     - Acme.BookStore.BookStoreApplicationContractsModule
+[15:38:39 INF]       - Acme.BookStore.BookStoreDomainSharedModule
+[15:38:39 INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+[15:38:39 INF]           - Volo.Abp.Validation.AbpValidationModule
+[15:38:39 INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+[15:38:39 INF]             - Volo.Abp.Localization.AbpLocalizationModule
+[15:38:39 INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+[15:38:39 INF]               - Volo.Abp.Settings.AbpSettingsModule
+[15:38:39 INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+[15:38:39 INF]                 - Volo.Abp.Security.AbpSecurityModule
+[15:38:39 INF]                 - Volo.Abp.Data.AbpDataModule
+[15:38:39 INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+[15:38:39 INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+[15:38:39 INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+[15:38:39 INF]               - Volo.Abp.Threading.AbpThreadingModule
+[15:38:39 INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+[15:38:39 INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+[15:38:39 INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+[15:38:39 INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+[15:38:39 INF]             - Volo.Abp.Timing.AbpTimingModule
+[15:38:39 INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+[15:38:39 INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+[15:38:39 INF]           - Volo.Abp.Features.AbpFeaturesModule
+[15:38:39 INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+[15:38:39 INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+[15:38:39 INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+[15:38:39 INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+[15:38:39 INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+[15:38:39 INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+[15:38:39 INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+[15:38:39 INF]         - HRS.OrganChart.OrganChartDomainSharedModule
+[15:38:39 INF]           - Volo.Abp.Domain.AbpDddDomainSharedModule
+[15:38:39 INF]         - HRS.Employee.EmployeeDomainSharedModule
+[15:38:39 INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+[15:38:39 INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+[15:38:39 INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+[15:38:39 INF]             - Volo.Abp.EventBus.AbpEventBusModule
+[15:38:39 INF]               - Volo.Abp.Json.AbpJsonModule
+[15:38:39 INF]               - Volo.Abp.Guids.AbpGuidsModule
+[15:38:39 INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+[15:38:39 INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+[15:38:39 INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+[15:38:39 INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+[15:38:39 INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+[15:38:39 INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+[15:38:39 INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+[15:38:39 INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+[15:38:39 INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+[15:38:39 INF]       - HRS.OrganChart.OrganChartApplicationContractsModule
+[15:38:39 INF]       - HRS.Employee.EmployeeApplicationContractsModule
+[15:38:39 INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+[15:38:39 INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+[15:38:39 INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+[15:38:39 INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+[15:38:39 INF]             - Volo.Abp.Auditing.AbpAuditingModule
+[15:38:39 INF]             - Volo.Abp.Http.AbpHttpModule
+[15:38:39 INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+[15:38:39 INF]               - Volo.Abp.Minify.AbpMinifyModule
+[15:38:39 INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+[15:38:39 INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+[15:38:39 INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+[15:38:39 INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+[15:38:39 INF]             - Volo.Abp.UI.AbpUiModule
+[15:38:39 INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+[15:38:39 INF]           - Volo.Abp.Application.AbpDddApplicationModule
+[15:38:39 INF]             - Volo.Abp.Domain.AbpDddDomainModule
+[15:38:39 INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+[15:38:39 INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+[15:38:39 INF]               - Volo.Abp.Caching.AbpCachingModule
+[15:38:39 INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+[15:38:39 INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+[15:38:39 INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+[15:38:39 INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+[15:38:39 INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+[15:38:39 INF]     - HRS.OrganChart.OrganChartHttpApiModule
+[15:38:39 INF]     - HRS.Employee.EmployeeHttpApiModule
+[15:38:39 INF]   - Volo.Abp.Autofac.AbpAutofacModule
+[15:38:39 INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+[15:38:39 INF]   - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+[15:38:39 INF]   - Acme.BookStore.BookStoreApplicationModule
+[15:38:39 INF]     - Acme.BookStore.BookStoreDomainModule
+[15:38:39 INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+[15:38:39 INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+[15:38:39 INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+[15:38:39 INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+[15:38:39 INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+[15:38:39 INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+[15:38:39 INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+[15:38:39 INF]         - Volo.Abp.Users.AbpUsersDomainModule
+[15:38:39 INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+[15:38:39 INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+[15:38:39 INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+[15:38:39 INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+[15:38:39 INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+[15:38:39 INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+[15:38:39 INF]       - Volo.Abp.Emailing.AbpEmailingModule
+[15:38:39 INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+[15:38:39 INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+[15:38:39 INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+[15:38:39 INF]       - HRS.OrganChart.OrganChartDomainModule
+[15:38:39 INF]       - HRS.Employee.EmployeeDomainModule
+[15:38:39 INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+[15:38:39 INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+[15:38:39 INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+[15:38:39 INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+[15:38:39 INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+[15:38:39 INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+[15:38:39 INF]     - HRS.OrganChart.OrganChartApplicationModule
+[15:38:39 INF]     - HRS.Employee.EmployeeApplicationModule
+[15:38:39 INF]   - Acme.BookStore.EntityFrameworkCore.BookStoreEntityFrameworkCoreModule
+[15:38:39 INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+[15:38:39 INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+[15:38:39 INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+[15:38:39 INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+[15:38:39 INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+[15:38:39 INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+[15:38:39 INF]     - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+[15:38:39 INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+[15:38:39 INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+[15:38:39 INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+[15:38:39 INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+[15:38:39 INF]     - HRS.OrganChart.EntityFrameworkCore.OrganChartEntityFrameworkCoreModule
+[15:38:39 INF]     - HRS.Employee.EntityFrameworkCore.EmployeeEntityFrameworkCoreModule
+[15:38:39 INF]   - Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.AbpAspNetCoreMvcUiLeptonXLiteThemeModule
+[15:38:39 INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+[15:38:39 INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+[15:38:39 INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+[15:38:39 INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+[15:38:39 INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+[15:38:39 INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+[15:38:39 INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+[15:38:39 INF]     - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+[15:38:39 INF]   - Volo.Abp.Account.Web.AbpAccountWebOpenIddictModule
+[15:38:39 INF]     - Volo.Abp.Account.Web.AbpAccountWebModule
+[15:38:39 INF]       - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+[15:38:39 INF]     - Volo.Abp.OpenIddict.AbpOpenIddictAspNetCoreModule
+[15:38:39 INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+[15:38:39 INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+[15:38:39 DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+[15:38:39 DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+[15:38:40 INF] User profile is available. Using 'C:\Users\heydari-mh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:38:40 INF] Initialized all ABP modules.
+[15:38:40 INF] Application started. Press Ctrl+C to shut down.
+[15:38:40 INF] Hosting environment: Development
+[15:38:40 INF] Content root path: E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi.Host
+[15:38:40 INF] Request starting HTTP/2 GET https://localhost:44394/ - null null
+[15:38:41 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+[15:38:41 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+[15:38:41 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+[15:38:41 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+[15:38:41 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+[15:38:41 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+[15:38:41 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+[15:38:41 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+[15:38:41 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+[15:38:41 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+[15:38:41 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+[15:38:41 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+[15:38:41 DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+[15:38:42 INF] Executing endpoint 'Acme.BookStore.Controllers.HomeController.Index (Acme.BookStore.HttpApi.Host)'
+[15:38:42 INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Acme.BookStore.Controllers.HomeController (Acme.BookStore.HttpApi.Host).
+[15:38:42 INF] Executing action method Acme.BookStore.Controllers.HomeController.Index (Acme.BookStore.HttpApi.Host) - Validation state: Valid
+[15:38:42 INF] Executed action method Acme.BookStore.Controllers.HomeController.Index (Acme.BookStore.HttpApi.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3948ms.
+[15:38:42 INF] Executing RedirectResult, redirecting to /swagger.
+[15:38:42 INF] Executed action Acme.BookStore.Controllers.HomeController.Index (Acme.BookStore.HttpApi.Host) in 104.7464ms
+[15:38:42 INF] Executed endpoint 'Acme.BookStore.Controllers.HomeController.Index (Acme.BookStore.HttpApi.Host)'
+[15:38:42 INF] Request starting HTTP/2 GET https://localhost:44394/swagger/index.html - null null
+[15:38:42 INF] Request finished HTTP/2 GET https://localhost:44394/ - 302 null null 1742.3444ms
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+[15:38:42 DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+[15:38:42 INF] Request finished HTTP/2 GET https://localhost:44394/swagger/index.html - 200 null text/html;charset=utf-8 60.2048ms
+[15:38:42 INF] Request starting HTTP/2 GET https://localhost:44394/swagger/ui/abp.swagger.js - null null
+[15:38:42 INF] Request starting HTTP/2 GET https://localhost:44394/swagger/ui/abp.js - null null
+[15:38:42 INF] Request starting HTTP/2 GET https://localhost:44394/_framework/aspnetcore-browser-refresh.js - null null
+[15:38:42 INF] Request finished HTTP/2 GET https://localhost:44394/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 4.2409ms
+[15:38:42 INF] The file /swagger/ui/abp.swagger.js was not modified
+[15:38:42 INF] The file /swagger/ui/abp.js was not modified
+[15:38:42 INF] Request finished HTTP/2 GET https://localhost:44394/swagger/ui/abp.swagger.js - 304 null application/javascript 20.82ms
+[15:38:42 INF] Request finished HTTP/2 GET https://localhost:44394/swagger/ui/abp.js - 304 null application/javascript 15.4731ms
+[15:38:42 INF] Request starting HTTP/2 GET https://localhost:44394/_vs/browserLink - null null
+[15:38:42 INF] Request finished HTTP/2 GET https://localhost:44394/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.9182ms
+[15:38:42 INF] Request starting HTTP/2 GET https://localhost:44394/api/abp/application-configuration - null null
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+EvaluateValidatedTokens.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromAuthorizationHeader.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromBodyForm.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ExtractAccessTokenFromQueryString.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was marked as rejected by OpenIddict.Validation.OpenIddictValidationHandlers+ValidateRequiredTokens.
+[15:38:42 DBG] AuthenticationScheme: OpenIddict.Validation.AspNetCore was not authenticated.
+[15:38:42 INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+[15:38:42 INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+[15:38:42 INF] Request starting HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - null null
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+[15:38:42 DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ValidateHostHeader.
+[15:38:42 DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessAuthenticationContext was successfully 
