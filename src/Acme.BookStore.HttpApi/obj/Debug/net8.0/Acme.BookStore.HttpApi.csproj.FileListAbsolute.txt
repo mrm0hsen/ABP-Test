@@ -323,6 +323,7 @@ E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi\o
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi\obj\Debug\net8.0\Acme.BookStore.HttpApi.AssemblyInfoInputs.cache
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi\obj\Debug\net8.0\Acme.BookStore.HttpApi.AssemblyInfo.cs
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi\obj\Debug\net8.0\Acme.BookStore.HttpApi.csproj.CoreCompileInputs.cache
+E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi\obj\Debug\net8.0\Acme.BookStore.HttpApi.sourcelink.json
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi\obj\Debug\net8.0\Acme.BookStore.HttpApi.csproj.CopyComplete
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi\obj\Debug\net8.0\Acme.BookStore.HttpApi.dll
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi\obj\Debug\net8.0\refint\Acme.BookStore.HttpApi.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rahZX4xXsBuahTD3Tnfgh8D23Tk/V30jkJTltgyDbf7QZKvTwBALm+n+YodBrXZESAJGqq0wzpEP1wNDZOZ7wQ==",
+  "dgSpecHash": "uybYwWuR+C9CwmAuifYwBpAAWWFG5vJpJWUHdnC10cujkAbXqn9sg/9rz6w+Rs7iUq7tepPcxCdXhrfBRjrP1g==",
   "success": true,
   "projectFilePath": "E:\\Project\\Test ABP\\TEST\\Acme.BookStore\\aspnet-core\\test\\Acme.BookStore.Application.Tests\\Acme.BookStore.Application.Tests.csproj",
   "expectedPackageFiles": [

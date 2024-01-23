@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cBzcqGqtEzTkCPzGduE5kflgXky/5knIvoIQStqKUytiKziysxS2i8KvotRtJ5SGnj75twCNo5q2RzPt3H1qNQ==",
+  "dgSpecHash": "5Bv8ZMG8PHXnxVFUHITKIL3x9s4P2QsTsRyHnhtUk0WrE9pYISBy8m0BOPtQ6hHcb75E7SpY9+Gx25jvHwmqog==",
   "success": true,
   "projectFilePath": "E:\\Project\\Test ABP\\TEST\\Acme.BookStore\\aspnet-core\\src\\Acme.BookStore.EntityFrameworkCore\\Acme.BookStore.EntityFrameworkCore.csproj",
   "expectedPackageFiles": [

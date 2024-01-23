@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lTFp6z6KyiZvqqEr4SLM5IWy2Q8y/R4VmQ7okgpfRU9JVSIKvfkqnjMwelpyU7+Pr65qDyAqr0MnVt4DlTzMtQ==",
+  "dgSpecHash": "2eopzJQ7KeyuGoziFKiG39IJYCt80/WQnmMqMC1enMlEIgd9qWR3V95o1qFWe6+6g9Mof3KNREkM79AJElAgIA==",
   "success": true,
   "projectFilePath": "E:\\Project\\Test ABP\\TEST\\Acme.BookStore\\aspnet-core\\src\\Acme.BookStore.DbMigrator\\Acme.BookStore.DbMigrator.csproj",
   "expectedPackageFiles": [

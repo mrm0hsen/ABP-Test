@@ -7,22 +7,21 @@ namespace Acme.BookStore.DTOs
 {
     public class CaptchaToViewDTO
     {
-        public SideDTO Side1 { get; set; }
-        public SideDTO Side2 { get; set; }
+        public SideDTO Captcha { get; set; }
         public Guid CaptchaId { get; set; }
     }
 
     public class CaptchaResult
     {
         public bool result { get; set; } = false;
-        public SideDTO? Side1 { get; set; }
-        public SideDTO? Side2 { get; set; }
+        public SideDTO? Captcha { get; set; }
         public Guid? CaptchaId { get; set; }
     }
 
     public class SideDTO
     {
-        public byte[] Side { get; set; }
-        public int SideNumber { get; set; }
+        public byte[] Captcha { get; set; }
+        public int SideNumber1 { get; set; }
+        public int SideNumber2 { get; set; }
     }
 }

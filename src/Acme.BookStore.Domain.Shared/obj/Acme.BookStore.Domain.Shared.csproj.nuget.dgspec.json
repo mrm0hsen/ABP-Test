@@ -18,7 +18,6 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "E:\\Project\\Test ABP\\TEST\\Acme.BookStore\\aspnet-core\\modules\\HRS.Employee\\NuGet.Config",
           "E:\\Project\\Test ABP\\TEST\\Acme.BookStore\\aspnet-core\\NuGet.Config",
           "C:\\Users\\heydari-mh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -206,7 +205,6 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "E:\\Project\\Test ABP\\TEST\\Acme.BookStore\\aspnet-core\\modules\\HRS.OrganChart\\NuGet.Config",
           "E:\\Project\\Test ABP\\TEST\\Acme.BookStore\\aspnet-core\\NuGet.Config",
           "C:\\Users\\heydari-mh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",

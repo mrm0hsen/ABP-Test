@@ -4,6 +4,7 @@ using Acme.BookStore.Interfaces;
 using System;
 using System.Drawing;
 using System.IO;
+using System.Net.Http;
 using System.Reflection;
 using System.Threading.Tasks;
 using Volo.Abp.Domain.Repositories;
@@ -19,13 +20,16 @@ namespace Acme.BookStore.Services
             _repository = repository;
         }
 
-        private SideDTO GiveSide()
+        private SideDTO CreateCaptcha()
         {
             SideDTO model = new SideDTO();
-            string number = RandomCaptcha();
-            Image image = DrawText(number, new Font(FontFamily.GenericSansSerif, 15), Color.DarkBlue, Color.Cornsilk);
-            model.Side = ImageToByteArray(image);
-            model.SideNumber = int.Parse(number);
+            string num1 = RandomCaptcha();
+            string num2 = RandomCaptcha();
+            string cap = num1 + " + " + num2 + " = ";
+            Image image = DrawText(cap, new Font(FontFamily.GenericSansSerif, 15), Color.DarkBlue, Color.Cornsilk);
+            model.Captcha = ImageToByteArray(image);
+            model.SideNumber1 = int.Parse(num1);
+            model.SideNumber2 = int.Parse(num2);
             return model;
         }
         private Image DrawText(string text, Font font, Color textColor, Color backColor)
@@ -78,43 +82,56 @@ namespace Acme.BookStore.Services
         public async Task<CaptchaToViewDTO> SendCaptcha()
         {
             CaptchaToViewDTO model = new CaptchaToViewDTO();
-            model.Side1 = GiveSide();
-            model.Side2 = GiveSide();
+            model.Captcha = CreateCaptcha();
             CaptchaForUser newCap = new CaptchaForUser();
-            newCap.Answer = (model.Side1.SideNumber + model.Side2.SideNumber).ToString();
+            newCap.Answer = (model.Captcha.SideNumber1 + model.Captcha.SideNumber2).ToString();
             await _repository.InsertAsync(newCap, true);
             model.CaptchaId = newCap.Id;
             return model;
         }
 
-        public async Task<CaptchaResult> CaptchaCheck(Guid id, string answer)
+        public async Task<CaptchaResult> CaptchaCheck(string id, string answer)
         {
-            CaptchaResult result = new CaptchaResult();
-            var cap = await _repository.GetAsync(x => x.Id == id);
-            if (cap == null || DateTime.Now > cap.ExpireDate || cap.IsUsed || cap.Answer != answer)
-            {
-                result.result = false;
-                result.Side1 = GiveSide();
-                result.Side2 = GiveSide();
-                CaptchaForUser newCap = new CaptchaForUser();
-                newCap.Answer = (result.Side1.SideNumber + result.Side2.SideNumber).ToString();
-                await _repository.InsertAsync(newCap, true);
-                result.CaptchaId = newCap.Id;
-                
-                //cap.IsUsed = true;
-                //await _repository.UpdateAsync(cap);
 
-                //U can swap this line with upper lines:
-                await _repository.DeleteAsync(x => x.Id == id);
+            try
+            {
+                //var clientHttp = new HttpClient();
+                //clientHttp.Timeout = TimeSpan.FromMinutes(30);
+                CaptchaResult result = new CaptchaResult();
+                var captchaId = new Guid(id);
+                var cap = await _repository.GetAsync(x => x.Id == captchaId);
+                if (cap == null || DateTime.Now > cap.ExpireDate || cap.IsUsed || cap.Answer != answer)
+                {
+                    var clientHttp = new HttpClient();
+                    clientHttp.Timeout = TimeSpan.FromMinutes(30);
+                    result.result = false;
+                    result.Captcha = CreateCaptcha();
+                    CaptchaForUser newCap = new CaptchaForUser();
+                    newCap.Answer = (result.Captcha.SideNumber1 + result.Captcha.SideNumber2).ToString();
+                    await _repository.InsertAsync(newCap, true);
+                    result.CaptchaId = newCap.Id;
+
+                    //cap.IsUsed = true;
+                    //await _repository.UpdateAsync(cap);
+
+                    //U can swap this line with upper lines:
+                    await _repository.DeleteAsync(x => x.Id == captchaId);
+
+                    return result;
+                }
+                result.result = true;
+
+                //Again u can swap this !
+                await _repository.DeleteAsync(x => x.Id == captchaId);
 
                 return result;
             }
-            result.result = true;
+            catch (TaskCanceledException ex)
+            {
 
-            //Again u can swap this !
-            await _repository.DeleteAsync(x => x.Id == id);
+                throw;
+            }
 
-            return result;
         }
 
     }

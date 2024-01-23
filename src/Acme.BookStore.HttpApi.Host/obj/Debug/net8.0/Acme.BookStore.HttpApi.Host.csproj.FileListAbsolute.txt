@@ -587,6 +587,7 @@ E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi.H
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi.Host\obj\Debug\net8.0\Acme.BookStore.HttpApi.Host.csproj.CoreCompileInputs.cache
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi.Host\obj\Debug\net8.0\Acme.BookStore.HttpApi.Host.MvcApplicationPartsAssemblyInfo.cs
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi.Host\obj\Debug\net8.0\Acme.BookStore.HttpApi.Host.MvcApplicationPartsAssemblyInfo.cache
+E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi.Host\obj\Debug\net8.0\Acme.BookStore.HttpApi.Host.sourcelink.json
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi.Host\obj\Debug\net8.0\staticwebassets.build.json
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi.Host\obj\Debug\net8.0\staticwebassets.development.json
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.HttpApi.Host\obj\Debug\net8.0\staticwebassets\msbuild.Acme.BookStore.HttpApi.Host.Microsoft.AspNetCore.StaticWebAssets.props

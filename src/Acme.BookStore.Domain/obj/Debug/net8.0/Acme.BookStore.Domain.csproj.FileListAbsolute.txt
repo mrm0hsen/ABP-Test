@@ -16,6 +16,7 @@ E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain\ob
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain\obj\Debug\net8.0\Acme.BookStore.Domain.AssemblyInfoInputs.cache
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain\obj\Debug\net8.0\Acme.BookStore.Domain.AssemblyInfo.cs
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain\obj\Debug\net8.0\Acme.BookStore.Domain.csproj.CoreCompileInputs.cache
+E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain\obj\Debug\net8.0\Acme.BookStore.Domain.sourcelink.json
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain\obj\Debug\net8.0\Acme.BookStore.Domain.csproj.CopyComplete
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain\obj\Debug\net8.0\Acme.BookStore.Domain.dll
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain\obj\Debug\net8.0\refint\Acme.BookStore.Domain.dll

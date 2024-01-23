@@ -11,6 +11,7 @@ E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain.Sh
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain.Shared\obj\Debug\netstandard2.0\Acme.BookStore.Domain.Shared.AssemblyInfoInputs.cache
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain.Shared\obj\Debug\netstandard2.0\Acme.BookStore.Domain.Shared.AssemblyInfo.cs
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain.Shared\obj\Debug\netstandard2.0\Acme.BookStore.Domain.Shared.csproj.CoreCompileInputs.cache
+E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain.Shared\obj\Debug\netstandard2.0\Acme.BookStore.Domain.Shared.sourcelink.json
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain.Shared\obj\Debug\netstandard2.0\Acme.BookStore.Domain.Shared.csproj.CopyComplete
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain.Shared\obj\Debug\netstandard2.0\Acme.BookStore.Domain.Shared.dll
 E:\Project\Test ABP\TEST\Acme.BookStore\aspnet-core\src\Acme.BookStore.Domain.Shared\obj\Debug\netstandard2.0\Acme.BookStore.Domain.Shared.pdb
